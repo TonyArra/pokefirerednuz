@@ -62,7 +62,7 @@ PalletTown_ProfessorOaksLab_OnFrame:: @ 8168FF0
 	map_script_2 VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 7, PalletTown_ProfessorOaksLab_EventScript_EnterForNationalDexScene
 	.2byte 0
 
-PalletTown_ProfessorOaksLab_EventScript_EnterForNationalDexScene:: @ 8169002 
+PalletTown_ProfessorOaksLab_EventScript_EnterForNationalDexScene:: @ 8169002
 	lockall
 	setvar VAR_FACING, DIR_NORTH
 	textcolor 0
@@ -1155,7 +1155,7 @@ PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall:: @ 8169BAB
 	lock
 	faceplayer
 	setvar PLAYER_STARTER_NUM, 0
-	setvar PLAYER_STARTER_SPECIES, SPECIES_BULBASAUR
+	setvar PLAYER_STARTER_SPECIES, SPECIES_ARTICUNO
 	setvar RIVAL_STARTER_SPECIES, SPECIES_CHARMANDER
 	setvar RIVAL_STARTER_ID, LOCALID_CHARMANDER_BALL
 	compare VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3
